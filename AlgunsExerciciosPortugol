@@ -1,0 +1,47 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		//6)
+		
+		real hora
+		escreva("quanto você ganha por hora? \n")
+		leia(hora)
+		real mes
+		escreva("quantas horas você trabalha por mês? \n")
+		leia(mes)
+		real salario = hora * mes
+		escreva("Seu salário equivale a ", salario, " reais por mês \n")
+
+
+		escreva("\n")
+
+		
+		//7)
+
+		real altura
+		escreva("digite sua altura \n")
+		leia(altura)
+		real peso = (72.7 * altura) - 58
+		escreva(peso)
+
+
+		escreva("\n")
+
+	
+		//8)
+
+		escreva("\n")
+		
+		real milhas
+		escreva("digite quantas milhas você percorreu e vamos transformar em quilometros \n")
+		leia(milhas)
+
+		real km = milhas * 0.6214
+		escreva(km)
+	
+	}
+}
+
